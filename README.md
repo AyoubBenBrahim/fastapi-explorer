@@ -19,7 +19,7 @@ xxxxxxxx       adminer              "entrypoint.sh php -…"   x minutes ago    
 
 curl -X POST -H "Content-Type: application/json" -d '{"content":"Hello Again!"}' http://localhost:8000/messages/
 
-{"id":2,"content":"Hello Again!"}%
+{"id":2,"content":"Hello Again!"}
 ```
 
 ### Get all messages
@@ -31,3 +31,6 @@ curl http://localhost:8000/messages/
 
 ```
 
+interactive API documentation : Swagger 
+
+http://localhost:8000/docs
